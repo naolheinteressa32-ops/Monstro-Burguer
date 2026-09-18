@@ -1,5 +1,5 @@
 <center>
-  <img width="500" height="500" alt="Monstro Burguer 2 0" src="https://github.com/user-attachments/assets/27bd56b5-dd01-43a1-bd1b-f23ab88e8a3b" />"
+  <img width="500" height="500" alt="Monstro Burguer 2 0" src="https://github.com/user-attachments/assets/27bd56b5-dd01-43a1-bd1b-f23ab88e8a3b" />
 </center>
 
 <h1>
