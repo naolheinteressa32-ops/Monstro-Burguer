@@ -8,7 +8,6 @@
 <p>
   Projeto HTML de um site para uma hamburgueria fictícia, a Monstro Burguer.
 </p>
-<br>
 <p>
   Venha conhecer nosso site: <a href="https://naolheinteressa32-ops.github.io/Monstro-Burguer/">Monstro Burguer</a>
 </p>
