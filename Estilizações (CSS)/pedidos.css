@@ -1,0 +1,243 @@
+/* Configurações gerais */
+body {
+    margin: 0;
+    background-color: #FFF8E7;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+header h1 {
+    color: #FFB81C;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+header table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+header td {
+    background-color: #FFB81C;
+    color: #000000;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #111111;
+    text-align: center;
+    border-top: 1px solid #444444;
+    border-bottom: 3px solid #FFB81C;
+}
+
+nav table {
+    margin: 0 auto;
+    border-spacing: 20px 5px;
+}
+
+nav h2 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFB81C;
+}
+
+/* Formulário */
+form {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+fieldset {
+    border: 2px solid #333333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFDF7;
+}
+
+legend {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+fieldset table {
+    width: 100%;
+}
+
+/* Campos do formulário */
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    accent-color: #E99A00;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #FFB81C;
+    border-color: #E99A00;
+}
+
+/* Resumo do pedido */
+fieldset h3 {
+    font-size: 18px;
+}
+
+fieldset h2 {
+    font-size: 26px;
+    color: #000000;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #AAAAAA;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 22px;
+    margin: 5px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #FFB81C;
+    color: #000000;
+}
+
+input[type="submit"]:hover {
+    background-color: #E99A00;
+}
+
+input[type="reset"] {
+    background-color: #FFFFFF;
+    color: #222222;
+}
+
+input[type="reset"]:hover {
+    background-color: #EEEEEE;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+footer p {
+    margin: 12px 0;
+}
+
+footer p b {
+    color: #FFB81C;
+    font-size: 20px;
+}
+
+footer a {
+    color: #FFB81C;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer table {
+    margin: 15px auto;
+    border-spacing: 25px 5px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav table {
+        border-spacing: 5px;
+    }
+
+    nav h2 {
+        font-size: 13px;
+        margin: 5px 2px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    fieldset {
+        padding: 12px;
+    }
+
+    legend {
+        font-size: 17px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    select {
+        max-width: 100%;
+    }
+}
